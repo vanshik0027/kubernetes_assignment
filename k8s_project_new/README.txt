@@ -7,3 +7,9 @@
 4). You can access this application on any port you want to (it's your choice).
 
 5). This application is deploying tomcat server in kubernetes.
+
+
+docker build -t your-username/sample-webapp:latest .
+minikube start
+kubectl apply -f filenmae_yaml
+minikube service service-name
