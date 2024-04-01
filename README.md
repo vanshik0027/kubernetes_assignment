@@ -64,7 +64,8 @@ minikube start
 This command will open the application in your default web browser.
 
 ```bash
-minikube service sample-webapp-service```
+minikube service sample-webapp-service
+```
 
 ## Customization
 
