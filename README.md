@@ -78,6 +78,12 @@ minikube service sample-webapp-service
 - **`Dockerfile`**: Specifies the instructions to build the Docker image.
 - **`README.md`**: This file providing setup instructions and project overview.
 
+**Note**: This project is for demonstration purposes and may require adjustments based on your specific environment and requirements.
+
+
+
+
+
 
 
 
