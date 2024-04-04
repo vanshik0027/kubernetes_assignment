@@ -51,12 +51,16 @@ mvn clean package
 
 ```bash
 docker build -t vanshik123docker/sample-webapp:latest .
+docker push vanshik123docker/sample-webapp:latest
 ```
    
 4. **Deploy to Kubernetes**: Apply the Kubernetes deployment and service YAML files:
 
 ```bash
 minikube start
+kubectl apply -f deployment-service.yaml
+
+
 ```
    
 8. **Access the Application**: Once deployed, access the application using Minikube:
